@@ -1,0 +1,53 @@
+body {
+  background-image: url("../Images/Other/Back.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+h1{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.contacti{
+  margin-top: 200px;
+  margin-left: 50px;
+}
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid grey;
+    background-color: transparent;
+    height: 50px;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 40px;
+  background:transparent;
+  width: 200px;
+  margin-right: 29.1666%;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  border: 3px solid grey;
+  border-radius: 50px;
+  padding: 10px 16px;
+}
+@media(max-width:500px) {
+ .contacti{
+   margin-top: 100px;
+   margin-left: 5px;
+ }
+}

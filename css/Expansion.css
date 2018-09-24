@@ -33,6 +33,9 @@ button:hover{
   .Expansion span{
     font-size: 20px;
   }
+  .Expansion img{
+    right: 30px;
+  }
   .Expansion p{
     font-size: 20px;
     letter-spacing: 0.5px;
