@@ -1,0 +1,50 @@
+.Expansion  span{
+  font-size: 25px;
+  font-weight: bold;
+}
+.Expansion img{
+  margin: 10px;
+}
+
+button{
+  color: white;
+  padding:10px 10px 10px 10px;
+  border: 2px solid white;
+  background-color: black;
+}
+button:hover{
+  color: black;
+  background-color: white;
+}
+#BAW{
+  color: green;
+}
+#HOS{
+  color: rgb(194, 23, 76);
+}
+#work{
+  color: orange;
+}
+#mrk{
+  font-weight: bold;
+}
+
+@media(max-width:500px) {
+  .Expansion span{
+    font-size: 20px;
+  }
+  .Expansion p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 1em ;
+  }
+  .Expansion h1{
+    letter-spacing: 1px;
+    font-size: 2em;
+    margin-bottom: 30px;
+ }
+ .Expansion h3{
+   letter-spacing: 4px;
+   font: normal 28px 'Montserrat';
+ }
+}
